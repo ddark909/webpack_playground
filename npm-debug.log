@@ -1,0 +1,280 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'css-loader',
+1 verbose cli   'style-handler',
+1 verbose cli   'extract-text-webpack-plugin',
+1 verbose cli   '--save-dev' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 warn package.json application-name@0.0.1 No description
+6 warn package.json application-name@0.0.1 No repository field.
+7 warn package.json application-name@0.0.1 No README data
+8 verbose readDependencies using package.json deps
+9 verbose cache add [ 'css-loader', null ]
+10 verbose cache add name=undefined spec="css-loader" args=["css-loader",null]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: 'css-loader',
+11 verbose parsed url   path: 'css-loader',
+11 verbose parsed url   href: 'css-loader' }
+12 verbose cache add [ 'style-handler', null ]
+13 verbose cache add name=undefined spec="style-handler" args=["style-handler",null]
+14 verbose parsed url { protocol: null,
+14 verbose parsed url   slashes: null,
+14 verbose parsed url   auth: null,
+14 verbose parsed url   host: null,
+14 verbose parsed url   port: null,
+14 verbose parsed url   hostname: null,
+14 verbose parsed url   hash: null,
+14 verbose parsed url   search: null,
+14 verbose parsed url   query: null,
+14 verbose parsed url   pathname: 'style-handler',
+14 verbose parsed url   path: 'style-handler',
+14 verbose parsed url   href: 'style-handler' }
+15 verbose cache add [ 'extract-text-webpack-plugin', null ]
+16 verbose cache add name=undefined spec="extract-text-webpack-plugin" args=["extract-text-webpack-plugin",null]
+17 verbose parsed url { protocol: null,
+17 verbose parsed url   slashes: null,
+17 verbose parsed url   auth: null,
+17 verbose parsed url   host: null,
+17 verbose parsed url   port: null,
+17 verbose parsed url   hostname: null,
+17 verbose parsed url   hash: null,
+17 verbose parsed url   search: null,
+17 verbose parsed url   query: null,
+17 verbose parsed url   pathname: 'extract-text-webpack-plugin',
+17 verbose parsed url   path: 'extract-text-webpack-plugin',
+17 verbose parsed url   href: 'extract-text-webpack-plugin' }
+18 silly lockFile e4f9ed04-css-loader css-loader
+19 verbose lock css-loader C:\Users\XX\AppData\Roaming\npm-cache\e4f9ed04-css-loader.lock
+20 silly lockFile 37880421-style-handler style-handler
+21 verbose lock style-handler C:\Users\XX\AppData\Roaming\npm-cache\37880421-style-handler.lock
+22 silly lockFile 2edebc46-extract-text-webpack-plugin extract-text-webpack-plugin
+23 verbose lock extract-text-webpack-plugin C:\Users\XX\AppData\Roaming\npm-cache\2edebc46-extract-text-webpack-plugin.lock
+24 silly lockFile e4f9ed04-css-loader css-loader
+25 silly lockFile e4f9ed04-css-loader css-loader
+26 silly lockFile 2edebc46-extract-text-webpack-plugin extract-text-webpack-plugin
+27 silly lockFile 2edebc46-extract-text-webpack-plugin extract-text-webpack-plugin
+28 silly lockFile 37880421-style-handler style-handler
+29 silly lockFile 37880421-style-handler style-handler
+30 verbose addNamed [ 'css-loader', '' ]
+31 verbose addNamed [ null, '*' ]
+32 silly lockFile fd58fa82-css-loader css-loader@
+33 verbose lock css-loader@ C:\Users\XX\AppData\Roaming\npm-cache\fd58fa82-css-loader.lock
+34 verbose addNamed [ 'extract-text-webpack-plugin', '' ]
+35 verbose addNamed [ null, '*' ]
+36 silly lockFile 89ca8dfb-extract-text-webpack-plugin extract-text-webpack-plugin@
+37 verbose lock extract-text-webpack-plugin@ C:\Users\XX\AppData\Roaming\npm-cache\89ca8dfb-extract-text-webpack-plugin.lock
+38 verbose addNamed [ 'style-handler', '' ]
+39 verbose addNamed [ null, '*' ]
+40 silly lockFile 5b419211-style-handler style-handler@
+41 verbose lock style-handler@ C:\Users\XX\AppData\Roaming\npm-cache\5b419211-style-handler.lock
+42 silly addNameRange { name: 'extract-text-webpack-plugin',
+42 silly addNameRange   range: '*',
+42 silly addNameRange   hasData: false }
+43 silly addNameRange { name: 'css-loader', range: '*', hasData: false }
+44 verbose request where is /extract-text-webpack-plugin
+45 verbose request registry https://registry.npmjs.org/
+46 verbose request id 35b80162eee79562
+47 verbose url raw /extract-text-webpack-plugin
+48 verbose url resolving [ 'https://registry.npmjs.org/',
+48 verbose url resolving   './extract-text-webpack-plugin' ]
+49 verbose url resolved https://registry.npmjs.org/extract-text-webpack-plugin
+50 verbose request where is https://registry.npmjs.org/extract-text-webpack-plugin
+51 info trying registry request attempt 1 at 10:00:32
+52 http GET https://registry.npmjs.org/extract-text-webpack-plugin
+53 verbose request where is /css-loader
+54 verbose request registry https://registry.npmjs.org/
+55 verbose url raw /css-loader
+56 verbose url resolving [ 'https://registry.npmjs.org/', './css-loader' ]
+57 verbose url resolved https://registry.npmjs.org/css-loader
+58 verbose request where is https://registry.npmjs.org/css-loader
+59 info trying registry request attempt 1 at 10:00:32
+60 http GET https://registry.npmjs.org/css-loader
+61 silly addNameRange { name: 'style-handler', range: '*', hasData: false }
+62 verbose request where is /style-handler
+63 verbose request registry https://registry.npmjs.org/
+64 verbose url raw /style-handler
+65 verbose url resolving [ 'https://registry.npmjs.org/', './style-handler' ]
+66 verbose url resolved https://registry.npmjs.org/style-handler
+67 verbose request where is https://registry.npmjs.org/style-handler
+68 info trying registry request attempt 1 at 10:00:32
+69 http GET https://registry.npmjs.org/style-handler
+70 http 404 https://registry.npmjs.org/style-handler
+71 verbose headers { date: 'Thu, 18 Dec 2014 06:00:27 GMT',
+71 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+71 verbose headers   'content-type': 'application/json',
+71 verbose headers   'cache-control': 'max-age=0',
+71 verbose headers   'content-length': '52',
+71 verbose headers   'accept-ranges': 'bytes',
+71 verbose headers   via: '1.1 varnish',
+71 verbose headers   age: '0',
+71 verbose headers   'x-served-by': 'cache-fra1238-FRA',
+71 verbose headers   'x-cache': 'MISS',
+71 verbose headers   'x-cache-hits': '0',
+71 verbose headers   'x-timer': 'S1418882426.950269,VS0,VE708',
+71 verbose headers   'keep-alive': 'timeout=10, max=50',
+71 verbose headers   connection: 'Keep-Alive' }
+72 silly registry.get cb [ 404,
+72 silly registry.get   { date: 'Thu, 18 Dec 2014 06:00:27 GMT',
+72 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+72 silly registry.get     'content-type': 'application/json',
+72 silly registry.get     'cache-control': 'max-age=0',
+72 silly registry.get     'content-length': '52',
+72 silly registry.get     'accept-ranges': 'bytes',
+72 silly registry.get     via: '1.1 varnish',
+72 silly registry.get     age: '0',
+72 silly registry.get     'x-served-by': 'cache-fra1238-FRA',
+72 silly registry.get     'x-cache': 'MISS',
+72 silly registry.get     'x-cache-hits': '0',
+72 silly registry.get     'x-timer': 'S1418882426.950269,VS0,VE708',
+72 silly registry.get     'keep-alive': 'timeout=10, max=50',
+72 silly registry.get     connection: 'Keep-Alive' } ]
+73 silly lockFile 5b419211-style-handler style-handler@
+74 silly lockFile 5b419211-style-handler style-handler@
+75 http 200 https://registry.npmjs.org/css-loader
+76 silly registry.get cb [ 200,
+76 silly registry.get   { date: 'Thu, 18 Dec 2014 06:00:27 GMT',
+76 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+76 silly registry.get     etag: '"BR01EC95RY386GNDUWAM8W8JF"',
+76 silly registry.get     'content-type': 'application/json',
+76 silly registry.get     'cache-control': 'max-age=60',
+76 silly registry.get     'content-length': '28909',
+76 silly registry.get     'accept-ranges': 'bytes',
+76 silly registry.get     via: '1.1 varnish',
+76 silly registry.get     age: '0',
+76 silly registry.get     'x-served-by': 'cache-fra1240-FRA',
+76 silly registry.get     'x-cache': 'MISS',
+76 silly registry.get     'x-cache-hits': '0',
+76 silly registry.get     'x-timer': 'S1418882426.934322,VS0,VE745',
+76 silly registry.get     vary: 'Accept',
+76 silly registry.get     'keep-alive': 'timeout=10, max=50',
+76 silly registry.get     connection: 'Keep-Alive' } ]
+77 silly addNameRange number 2 { name: 'css-loader', range: '*', hasData: true }
+78 silly addNameRange versions [ 'css-loader',
+78 silly addNameRange   [ '0.1.0',
+78 silly addNameRange     '0.1.1',
+78 silly addNameRange     '0.1.2',
+78 silly addNameRange     '0.2.0',
+78 silly addNameRange     '0.2.1',
+78 silly addNameRange     '0.2.2',
+78 silly addNameRange     '0.2.3',
+78 silly addNameRange     '0.2.4',
+78 silly addNameRange     '0.5.0',
+78 silly addNameRange     '0.5.1',
+78 silly addNameRange     '0.5.2',
+78 silly addNameRange     '0.6.0',
+78 silly addNameRange     '0.6.1',
+78 silly addNameRange     '0.6.2',
+78 silly addNameRange     '0.6.3',
+78 silly addNameRange     '0.6.4',
+78 silly addNameRange     '0.6.5',
+78 silly addNameRange     '0.6.6',
+78 silly addNameRange     '0.6.7',
+78 silly addNameRange     '0.6.8',
+78 silly addNameRange     '0.6.9',
+78 silly addNameRange     '0.6.10',
+78 silly addNameRange     '0.6.11',
+78 silly addNameRange     '0.6.12',
+78 silly addNameRange     '0.7.0',
+78 silly addNameRange     '0.7.1',
+78 silly addNameRange     '0.8.0',
+78 silly addNameRange     '0.9.0' ] ]
+79 verbose addNamed [ 'css-loader', '0.9.0' ]
+80 verbose addNamed [ '0.9.0', '0.9.0' ]
+81 silly lockFile 3e395507-css-loader-0-9-0 css-loader@0.9.0
+82 verbose lock css-loader@0.9.0 C:\Users\XX\AppData\Roaming\npm-cache\3e395507-css-loader-0-9-0.lock
+83 silly lockFile 427991a5--css-loader-css-loader-0-9-0-tgz https://registry.npmjs.org/css-loader/-/css-loader-0.9.0.tgz
+84 verbose lock https://registry.npmjs.org/css-loader/-/css-loader-0.9.0.tgz C:\Users\XX\AppData\Roaming\npm-cache\427991a5--css-loader-css-loader-0-9-0-tgz.lock
+85 verbose addRemoteTarball [ 'https://registry.npmjs.org/css-loader/-/css-loader-0.9.0.tgz',
+85 verbose addRemoteTarball   '079849c253c0a6a9fc8cdeea7d41eab12195a7a8' ]
+86 info retry fetch attempt 1 at 10:00:33
+87 verbose fetch to= C:\Users\XX\AppData\Local\Temp\npm-7776-L6XAY7El\registry.npmjs.org\css-loader\-\css-loader-0.9.0.tgz
+88 http GET https://registry.npmjs.org/css-loader/-/css-loader-0.9.0.tgz
+89 http 200 https://registry.npmjs.org/extract-text-webpack-plugin
+90 silly registry.get cb [ 200,
+90 silly registry.get   { date: 'Thu, 18 Dec 2014 06:00:27 GMT',
+90 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+90 silly registry.get     etag: '"AHB37IZWLGBTH4PHSOYASXEGY"',
+90 silly registry.get     'content-type': 'application/json',
+90 silly registry.get     'cache-control': 'max-age=60',
+90 silly registry.get     'content-length': '21512',
+90 silly registry.get     'accept-ranges': 'bytes',
+90 silly registry.get     via: '1.1 varnish',
+90 silly registry.get     age: '0',
+90 silly registry.get     'x-served-by': 'cache-fra1220-FRA',
+90 silly registry.get     'x-cache': 'MISS',
+90 silly registry.get     'x-cache-hits': '0',
+90 silly registry.get     'x-timer': 'S1418882426.932345,VS0,VE876',
+90 silly registry.get     vary: 'Accept',
+90 silly registry.get     'keep-alive': 'timeout=10, max=50',
+90 silly registry.get     connection: 'Keep-Alive' } ]
+91 silly addNameRange number 2 { name: 'extract-text-webpack-plugin',
+91 silly addNameRange   range: '*',
+91 silly addNameRange   hasData: true }
+92 silly addNameRange versions [ 'extract-text-webpack-plugin',
+92 silly addNameRange   [ '0.1.0',
+92 silly addNameRange     '0.1.1',
+92 silly addNameRange     '0.1.2',
+92 silly addNameRange     '0.2.0',
+92 silly addNameRange     '0.2.1',
+92 silly addNameRange     '0.2.2',
+92 silly addNameRange     '0.2.3',
+92 silly addNameRange     '0.2.4',
+92 silly addNameRange     '0.2.5',
+92 silly addNameRange     '0.3.0',
+92 silly addNameRange     '0.3.1',
+92 silly addNameRange     '0.3.2',
+92 silly addNameRange     '0.3.3',
+92 silly addNameRange     '0.3.4',
+92 silly addNameRange     '0.3.5' ] ]
+93 verbose addNamed [ 'extract-text-webpack-plugin', '0.3.5' ]
+94 verbose addNamed [ '0.3.5', '0.3.5' ]
+95 silly lockFile f772475d-xtract-text-webpack-plugin-0-3-5 extract-text-webpack-plugin@0.3.5
+96 verbose lock extract-text-webpack-plugin@0.3.5 C:\Users\XX\AppData\Roaming\npm-cache\f772475d-xtract-text-webpack-plugin-0-3-5.lock
+97 silly lockFile 94a581b1-ct-text-webpack-plugin-0-3-5-tgz https://registry.npmjs.org/extract-text-webpack-plugin/-/extract-text-webpack-plugin-0.3.5.tgz
+98 verbose lock https://registry.npmjs.org/extract-text-webpack-plugin/-/extract-text-webpack-plugin-0.3.5.tgz C:\Users\XX\AppData\Roaming\npm-cache\94a581b1-ct-text-webpack-plugin-0-3-5-tgz.lock
+99 verbose addRemoteTarball [ 'https://registry.npmjs.org/extract-text-webpack-plugin/-/extract-text-webpack-plugin-0.3.5.tgz',
+99 verbose addRemoteTarball   'f22e5a9f40472f7a713c76322289b9032dcfbf30' ]
+100 info retry fetch attempt 1 at 10:00:33
+101 verbose fetch to= C:\Users\XX\AppData\Local\Temp\npm-7776-L6XAY7El\registry.npmjs.org\extract-text-webpack-plugin\-\extract-text-webpack-plugin-0.3.5.tgz
+102 http GET https://registry.npmjs.org/extract-text-webpack-plugin/-/extract-text-webpack-plugin-0.3.5.tgz
+103 http 200 https://registry.npmjs.org/css-loader/-/css-loader-0.9.0.tgz
+104 silly lockFile 427991a5--css-loader-css-loader-0-9-0-tgz https://registry.npmjs.org/css-loader/-/css-loader-0.9.0.tgz
+105 silly lockFile 427991a5--css-loader-css-loader-0-9-0-tgz https://registry.npmjs.org/css-loader/-/css-loader-0.9.0.tgz
+106 silly lockFile 3e395507-css-loader-0-9-0 css-loader@0.9.0
+107 silly lockFile 3e395507-css-loader-0-9-0 css-loader@0.9.0
+108 silly lockFile fd58fa82-css-loader css-loader@
+109 silly lockFile fd58fa82-css-loader css-loader@
+110 http 200 https://registry.npmjs.org/extract-text-webpack-plugin/-/extract-text-webpack-plugin-0.3.5.tgz
+111 silly lockFile 94a581b1-ct-text-webpack-plugin-0-3-5-tgz https://registry.npmjs.org/extract-text-webpack-plugin/-/extract-text-webpack-plugin-0.3.5.tgz
+112 silly lockFile 94a581b1-ct-text-webpack-plugin-0-3-5-tgz https://registry.npmjs.org/extract-text-webpack-plugin/-/extract-text-webpack-plugin-0.3.5.tgz
+113 silly lockFile f772475d-xtract-text-webpack-plugin-0-3-5 extract-text-webpack-plugin@0.3.5
+114 silly lockFile f772475d-xtract-text-webpack-plugin-0-3-5 extract-text-webpack-plugin@0.3.5
+115 silly lockFile 89ca8dfb-extract-text-webpack-plugin extract-text-webpack-plugin@
+116 silly lockFile 89ca8dfb-extract-text-webpack-plugin extract-text-webpack-plugin@
+117 error 404 404 Not Found: style-handler
+117 error 404
+117 error 404 'style-handler' is not in the npm registry.
+117 error 404 You should bug the author to publish it
+117 error 404 It was specified as a dependency of 'application-name'
+117 error 404
+117 error 404 Note that you can also install from a
+117 error 404 tarball, folder, or http url, or git url.
+118 error System Windows_NT 6.2.9200
+119 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "css-loader" "style-handler" "extract-text-webpack-plugin" "--save-dev"
+120 error cwd C:\Users\XX\WebstormProjects\eloquentJS
+121 error node -v v0.10.33
+122 error npm -v 1.4.28
+123 error code E404
+124 verbose exit [ 1, true ]
