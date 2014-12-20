@@ -11,19 +11,23 @@ var config = {
     output: {
         path: path.join(__dirname, 'assets')
     },
+    resolve: {
+        extensions: ['', '.js', 'jsx']
+    },
     module: {
       loaders: [
           {test: /\.css$/, loader: 'style-loader!css-loader'},
           {test: /\.json$/, loader: 'json-loader'},
           {test: /\.hbs$/, loader: 'handlebars-loader'},
+          {test: /\.jsx$/, loader: 'jsx-loader'},
           {
               test: /\.(eot|woff|ttf|svg|png|jpg)$/,
               loader: 'url-loader?limit=30000&name=[name]-[hash].[ext]'
-          },
+          }
       ]
     },
     plugins: [
-        new webpack.optimize.UglifyJsPlugin,
+        /**new webpack.optimize.UglifyJsPlugin,**/
         new webpack.optimize.DedupePlugin,
         new webpack.DefinePlugin({
             'NODE_ENV': JSON.stringify('production')

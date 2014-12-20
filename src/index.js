@@ -9,10 +9,17 @@ if (NODE_ENV === 'production'){
     console.log('There is Development mode')
 }
 var $ = require('jquery');
+var React = require('react');
+var Toolbar = require('./toolbar.jsx');
 require('./index.css');
-require('./header.css');
+require('./header.js');
+React.render(
+    React.createElement(Toolbar),
+    document.getElementById('toolbar')
+);
 if (NODE_ENV === 'production'){
-    $('body').html('There is Production mode');
+    $('body').append('There is Production mode');
 } else {
-    $('body').html('There is Development mode');
+    $('body').append('There is Development mode');
 }
+
